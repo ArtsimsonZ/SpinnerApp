@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_next">NextActivity</string>
+    <string-array name="Gender">
+        <item >Male</item>
+        <item >Female</item>
+    </string-array>
+    <string-array name="Android_Version">
+        <item >Jelly Bean</item>
+        <item >KitKat</item>
+        <item >Lollipop</item>
+        <item >IceCream Sandwich</item>
+    </string-array>
+
+</resources>

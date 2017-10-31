@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="View"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/spindisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Click to Show options"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spindisplay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:text="Show" />
+    <TextView
+        android:id="@+id/optiondisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/show"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</RelativeLayout>
